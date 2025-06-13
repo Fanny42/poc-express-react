@@ -1,0 +1,28 @@
+{
+  "name": "poc-express-react",
+  "version": "1.0.0",
+  "main": "server.js",
+  "type": "module",
+  "source": "src/index.jsx",
+  "targets": {
+    "main": false
+  },
+  "scripts": {
+    "dev": "parcel watch & node --watch server.js",
+    "build": "parcel build",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "ejs": "^3.1.10",
+    "express": "^5.1.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.15.2"
+  }
+}
