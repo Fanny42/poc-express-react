@@ -14,6 +14,10 @@ app.get("/", (req, res) => {
   res.render("home", { name: "Toto" });
 });
 
+app.get("/slow", (req, res) => {
+  res.render("slow");
+});
+
 app.listen(3000, () => {
   console.log("Serveur sur http://localhost:3000");
 });

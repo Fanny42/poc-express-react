@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "server.js",
   "type": "module",
-  "source": "src/index.jsx",
+  "source": ["src/index.jsx", "src/slow-index.jsx"],
   "targets": {
     "main": false
   },
